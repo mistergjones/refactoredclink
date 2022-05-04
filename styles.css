@@ -1,0 +1,89 @@
+/* .banner {
+    background: rgb(38, 114, 22);
+    background: -moz-linear-gradient(
+        left,
+        rgb(38, 114, 22) 0%,
+        rgb(19, 104, 22) 50%,
+        rgb(255, 255, 255) 50%,
+        rgb(255, 255, 255) 100%
+    );
+    background: -webkit-linear-gradient(
+        left,
+        rgb(38, 114, 22) 0%,
+        rgb(19, 104, 22) 50%,
+        rgb(255, 255, 255) 50%,
+        rgb(255, 255, 255) 100%
+    );
+    background: linear-gradient(
+        to right,
+        rgb(38, 114, 22) 0%,
+        rgb(19, 104, 22) 50%,
+        rgb(255, 255, 255) 50%,
+        rgb(255, 255, 255) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267216', endColorstr='#ffffff',GradientType=1 );
+} */
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide {
+    font-family: "Saira Stencil One", cursive;
+    padding: 1rem;
+    font-size: 5rem;
+    background-color: rgb(38, 114, 22);
+    color: white;
+}
+
+.rightSide {
+    font-family: "Saira Stencil One", cursive;
+    padding: 1rem;
+    font-size: 5rem;
+    background-color: white;
+    color: rgb(38, 114, 22);
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(38, 114, 22);
+}
+
+/* overide Bootstrap */
+.nav-link {
+    color: rgb(38, 114, 22);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: rgb(38, 114, 22);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: red;
+}
+
+.icon-link {
+    color: rgb(38, 114, 22);
+}
+
+.icon-link:hover {
+    color: red;
+}
+
+/* FAQs */
+
+.accordion-button:not(.collapsed) {
+    color: rgb(38, 114, 22);
+    background-color: rgb(228, 255, 228);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.faqTextColour {
+    color: rgb(38, 114, 22);
+    font-weight: 700;
+}
